@@ -1,7 +1,4 @@
-d3.select("p").text("Hello World !");
 
-d3.select("body").append("p").text("second paragraph");
-console.log(d3);
 var width = 500; // in pixel
 var height = 500; // in pixel
 
