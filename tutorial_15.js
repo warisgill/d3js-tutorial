@@ -48,39 +48,7 @@ var data = {
     ]
 };
 
-var data2 = {
-    "name": "Eve",
-    "children": [
-      {
-        "name": "Cain"
-      },
-      {
-        "name": "Seth",
-        "children": [
-          {
-            "name": "Enos"
-          },
-          {
-            "name": "Noam"
-          }
-        ]
-      },
-      {
-        "name": "Abel"
-      },
-      {
-        "name": "Awan",
-        "children": [
-          {
-            "name": "Enoch"
-          }
-        ]
-      },
-      {
-        "name": "Azura"
-      }
-    ]
-  };
+
 
 var tree = d3.layout.tree()
     .separation(function(a, b) { return a.parent === b.parent ? 1 : 1.5; })
